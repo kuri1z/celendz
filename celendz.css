@@ -1,7 +1,17 @@
-obrazek1{
-    width: 485px;
-    height: 325px;
+body{
+    background-color: black;
 }
+
+.obrazek1{
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+
+
+
+
 
 
 
