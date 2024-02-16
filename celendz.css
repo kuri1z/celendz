@@ -1,18 +1,83 @@
 body{
     background-color: black;
-}
-
-.obrazek1{
-    justify-content: center;
     display: flex;
-    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    background-color: aqua;
 }
 
+.card1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 296px;
+    height: 173px;
+    left: 180.57px;
+    top: 161px;
+    background: linear-gradient(112.48deg, rgba(255, 255, 255, 0.1) 6.31%, rgba(255, 255, 255, 0) 98.51%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    z-index: 1;
+}
 
+.kruh1{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 327.86px;
+    top: 199.91px;
+    filter: drop-shadow( 0px 4px 4px
+    rgba(0, 0, 0, 0.25));
+    transform: rotate(-54deg);
+    z-index: -1;
+}
 
+.kruh2{
+    position: absolute;
+    width: 114px;
+    height: 113px;
+    left: 251.15px;
+    top: 284.15px;
+    filter: drop-shadow( 0px 4px 4px
+    rgba(0, 0, 0, 0.25));
+    transform: rotate(123.5deg);
+    z-index: -1;
+}
 
+.cardnumber{
+    position: absolute;
+    width: 190px;
+    height: 22px;
+    left: 193.57px;
+    top: 264px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    z-index: 10;
+}
 
+.mastercard{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 193.57px;
+    top: 168px;
+    background: url(Mastercard-Logo);
+    z-index: 10;
+}
 
-
-
-
+.pplogo{
+    position: absolute;
+    width: 190px;
+    height: 163px;
+    left: 323px;
+    top: 185px;
+    background: url(paypal-4-226455.png);
+    mix-blend-mode: overlay;
+    z-index: 10;
+}
